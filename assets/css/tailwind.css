@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Nunito', sans-serif;
+  @apply text-gray-800;
+}
+
+.container {
+  @apply w-full max-w-6xl mx-auto;
+}
+
+.link {
+  @apply underline;
+}
+
+.btn {
+  @apply flex items-center justify-center gap-2 h-10 px-3 text-sm font-semibold rounded-md;
+}
+
+.btn-sm {
+  @apply h-8 text-xs;
+}
+
+.btn-lg {
+  @apply h-12 text-lg;
+}
+
+.btn-primary {
+  @apply bg-red-800 text-white;
+}
+.btn-services{
+  @apply bg-yellow-600 text-white;
+}
+.btn-services2{
+  @apply bg-red-500 text-white;
+}
+.btn-services3{
+  @apply bg-blue-800 text-white;
+}
+.btn-services4{
+  @apply bg-purple-800/90 text-white;
+}
+.btn-services5{
+  @apply bg-pink-600 text-white;
+}
+.btn-services6{
+  @apply bg-sky-700 text-white;
+}

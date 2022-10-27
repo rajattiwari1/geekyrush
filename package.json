@@ -1,0 +1,21 @@
+{
+  "name": "geekyrush",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "latest",
+    "@nuxtjs/moment": "latest",
+    "lodash": "latest",
+    "nuxt": "latest",
+    "vue-lodash": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "latest"
+  }
+}
